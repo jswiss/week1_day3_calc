@@ -9,7 +9,9 @@ console.log('op', op);
 var numDos = parseInt(prompt('choose a second number'));
 console.log('numDos', numDos);
 
-if(op === "+") {
+if (isNaN(num) === true && isNaN(numDos) === true) {
+  alert('Try entering a real number ya idjit.');
+  } else if(op === "+") {
   prompt(num + numDos);
   console.log(num + numDos);
 }  else if (op === "-") {
